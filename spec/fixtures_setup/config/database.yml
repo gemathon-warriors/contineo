@@ -1,0 +1,17 @@
+test:
+  adapter: sqlite3
+  database: db/development.sqlite3
+  pool: 5
+  timeout: 5000
+
+first_db_test:
+  adapter: sqlite3
+  database: db/first.sqlite3
+  pool: 5
+  timeout: 5000
+
+second_db_test:
+  adapter: sqlite3
+  database: db/second.sqlite3
+  pool: 5
+  timeout: 5000

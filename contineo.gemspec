@@ -5,7 +5,7 @@ require 'contineo/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "contineo"
-  spec.version       = Contineo::VERSION
+  spec.version       = Contineo::VERSION::STRING
   spec.authors       = ["Nikhil Nanjappa", "Ashish Upadhyay", "Ankur Gera", "Gourav Tiwari", "Hrishita Vaish"]
   spec.email         = ["nikhil.nanjappa@tcs.com", "ashish.upadhyaye@gmail.com", "ankurgera@gmail.com", "gouravtiwari21@gmail.com", "vaish.hrishita@tcs.com"]
   spec.summary       = %q{Connect rails app to multiple databases with ease}
@@ -19,7 +19,9 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency "activerecord",'>= 2.3.16'
+  spec.add_development_dependency "activerecord",'>= 2.3.0'
+  spec.add_development_dependency "rails",'>= 2.3.0'
   spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'sqlite3'
   spec.add_development_dependency 'coveralls'
 end
