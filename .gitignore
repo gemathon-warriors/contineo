@@ -3,4 +3,4 @@ build_steps_local
 .bundle
 coverage
 Gemfile.lock
-db
+/db
