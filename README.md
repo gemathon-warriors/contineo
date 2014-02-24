@@ -1,5 +1,6 @@
 contineo
 ========
+[![Build Status](https://travis-ci.org/gemathon-warriors/contineo.png?branch=master)](https://travis-ci.org/gemathon-warriors/contineo) [![Gem Version](https://badge.fury.io/rb/contineo.png)](http://badge.fury.io/rb/contineo)
 
 Hold together all your databases in a rails application with ease!
 
