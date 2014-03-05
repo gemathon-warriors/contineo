@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["nikhil.nanjappa@tcs.com", "ashish.upadhyaye@gmail.com", "ankurgera@gmail.com", "gouravtiwari21@gmail.com", "vaish.hrishita@tcs.com"]
   spec.summary       = %q{Connect rails app to multiple databases with ease}
   spec.description   = %q{Connect rails app to multiple databases with ease, includes sqlite, mysql, oracle etc}
-  spec.homepage      = "https://github.com/gemathon-warriors/timezonify"
+  spec.homepage      = "https://github.com/gemathon-warriors/contineo"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
