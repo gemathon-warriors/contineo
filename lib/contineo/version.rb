@@ -1,7 +1,7 @@
 module Contineo
   # Returns the version of the currently loaded Contineo as a Gem::Version
   def self.version
-    Gem::Version.new "0.1.2"
+    Gem::Version.new "0.1.3"
   end
 
   module VERSION #:nodoc:
