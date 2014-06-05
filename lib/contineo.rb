@@ -23,7 +23,7 @@ module Contineo
               end
             })
       
-    klass.define_singleton_method(:contineo) { establish_connection db_env }
+    klass.define_singleton_method(:contineo) { establish_connection db_env.to_sym }
     klass
   end
 

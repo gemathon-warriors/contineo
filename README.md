@@ -6,7 +6,7 @@ Hold together all your databases in a rails application with ease!
 
 ## Supports
 
-    Rails 3+
+    Rails 3+ and Rails 4.0.0
 
 ## Installation
 
