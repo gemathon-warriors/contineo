@@ -18,6 +18,11 @@ And then run:
 
     $ bundle install
 
+## Supported Databases
+
+We have tested this with sqlite3 (to make sure it works in development mode), MySQL and Oracle.
+Feel free to fork and add the database you have integrated with Contineo in this list!
+
 ## Usage
 
 Convention here is, simply you create configuration sections in database.yml, as:
@@ -38,15 +43,19 @@ Sample database.yml:
     
     # Look at the convention <db_name>_<environment>
     other_development:
-      adapter: sqlite3
-      database: db/other_whatever_name_of_db.sqlite3
-      pool: 5
-      timeout: 5000
-     
+      adapter: oracle_enhanced
+      encoding: utf8
+      database: other_whatever_server:port/other_whatever_name_of_db
+      username: fake_username
+      password: encrypted_password
+
     # Look at the convention <db_name>_<environment>
     another_development:
-      adapter: sqlite3
-      database: db/another_db.sqlite3
+      adapter: mysql2
+      database: another_db
+      username: another_fake_username
+      password: another_encrypted_password
+      host:  host_name
       pool: 5
       timeout: 5000
 
